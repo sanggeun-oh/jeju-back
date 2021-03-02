@@ -1,0 +1,24 @@
+#tomacat port
+server:
+  port: 9002
+#jsp
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  devtools:
+    livereload:
+      enabled: true
+#mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url:  jdbc:mysql://jeju.cvqasulqrodj.ap-northeast-2.rds.amazonaws.com:3306/finalproject?useSSL=false&cacheDefaultTimezone=false
+    username: admin
+    password: alsl8125+
+  servlet:
+    multipart:
+      location: /upload
+      file-size-threshold: 536870912
+      max-request-size: 20971520
+      max-file-size: 12582912
