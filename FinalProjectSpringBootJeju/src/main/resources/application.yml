@@ -13,9 +13,9 @@ spring:
 #mysql
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    jdbc-url:  jdbc:mysql://jeju.cvqasulqrodj.ap-northeast-2.rds.amazonaws.com:3306/finalproject?useSSL=false&cacheDefaultTimezone=false
+    jdbc-url:  jdbc:mysql://jeju.cvqasulqrodj.ap-northeast-2.rds.amazonaws.com:3306/jejuproject?useSSL=false&cacheDefaultTimezone=false
     username: jeju
-    password: alsl12
+    password: alsl1111
   servlet:
     multipart:
       location: /upload
